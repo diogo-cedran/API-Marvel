@@ -1,0 +1,1 @@
+https://gateway.marvel.com:443/v1/public/series/832/comics?ts=1&apikey=b725bf2210b9af96552e535b3a79eec4&hash=1ffd275c5130566a2916217b101f2615016bbae9c21c088c021a787cd1002496bfe794c62
