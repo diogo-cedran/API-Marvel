@@ -73,7 +73,8 @@ A API possui as seguintes rotas:
 - Formato da Requisição: JSON
 - Corpo:
 
-  ![put-comics](https://github.com/Hudson-Matias/Teste/assets/116506548/cb20240d-988a-4a0b-99d4-787bbd156c75)
+  ![put-comics](https://github.com/diogo-cedran/API-Marvel/assets/116506548/5fad4633-ab42-44bd-a27f-15fc338dcde0)
+
 
 - Resposta de Sucesso:
   - Status 201 Created
@@ -125,7 +126,8 @@ A API possui as seguintes rotas:
 - Formato da Requisição: JSON
 - Corpo:
   
-![image](https://github.com/Hudson-Matias/Teste/assets/116506548/62e387ac-f852-49a3-80ce-956880e16039)
+![Captura de tela 2024-05-04 152859](https://github.com/diogo-cedran/API-Marvel/assets/116506548/b2b8cf1f-dea6-49b7-85fe-960cb11ed656)
+
 
 - Resposta de Sucesso:
   - Status: 201 Created
@@ -149,7 +151,8 @@ A API possui as seguintes rotas:
 - Formato da Requisição: JSON
 - Corpo:
 
-![image](https://github.com/Hudson-Matias/Teste/assets/116506548/ae3cb435-a5ce-4ac7-8559-7e2d883f50f5)
+![put-criadores](https://github.com/diogo-cedran/API-Marvel/assets/116506548/56bc071b-2d73-4dc2-9e37-28a35f37292a)
+
 
 - Resposta de Sucesso:
   - Status: 201 Created
@@ -193,7 +196,8 @@ A API possui as seguintes rotas:
 - Formato da Requisição: JSON
 - Corpo:
 
-![image](https://github.com/Hudson-Matias/Teste/assets/116506548/d3f60333-625e-42af-8074-e81e0cff5ea7)
+![post-personagens](https://github.com/diogo-cedran/API-Marvel/assets/116506548/4b326a70-4861-4320-8f6d-109605746499)
+
 
 - Resposta de Sucesso:
   - Status: 201 Created
@@ -217,7 +221,8 @@ A API possui as seguintes rotas:
 - Formato da Requisição: JSON
 - Corpo:
 
-![image](https://github.com/Hudson-Matias/Teste/assets/116506548/6a7e804d-cfc4-4737-8aaf-30802c063c85)
+![put-personagens](https://github.com/diogo-cedran/API-Marvel/assets/116506548/7c30360d-b709-436b-b0dc-498051909699)
+
 
 - Resposta de Sucesso:
   - Status: 201 Created
