@@ -277,24 +277,43 @@ Código para rodar o teste de rotas:
 `npm test jest test/routes.test.ts`
 
   ✔ Deve excluir um personagem existente (16.2431ms)
+  
   ✔ Deve buscar o total de comics (372.3117ms)
+  
   ✔ Deve buscar os criadores por função (8.1942ms)
+  
   ✔ Deve buscar o caminho da imagem do personagem (9.2283ms)
+  
   ✔ Deve buscar um personagem pelo nome (6.3763ms)
+  
   ✔ Deve buscar os comics por datas de vendas (250.3627ms)
+  
   ✔ Deve buscar todos os personagens (10.2782ms)
+  
   ✔ Deve excluir um criador existente (12.8467ms)
+  
   ✔ Deve buscar todos os criadores (8.5297ms)
+  
   ✔ Deve excluir um comic existente (17.4365ms)
+  
   ✔ Deve buscar todos os comics (544.9921ms)
+  
   ✖ Deve atualizar um personagem existente (5.8477ms)
+  
   ✖ Deve criar um novo personagem (4.8419ms)
+  
   ✖ Deve buscar todos os personagens no dataBase da Marvel e inserir no banco (1248.7875ms)
+  
   ✖ Deve atualizar um criador existente (4.9477ms)
+  
   ✖ Deve criar um novo criador (6.1187ms)
+  
   ✖ Deve buscar todos os criadores no dataBase da Marvel e inserir no banco (1230.5708ms)
+  
   ✖ Deve atualizar um comic existente (8.4339ms)
+  
   ✖ Deve criar um novo comic (23.4861ms)
+  
   ✖ Deve buscar todos os comics no dataBase da Marvel e inserir no banco (1488.1429ms)
 
   
