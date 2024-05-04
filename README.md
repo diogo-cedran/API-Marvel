@@ -47,7 +47,8 @@ A API possui as seguintes rotas:
 - Formato da Requisição: JSON
 - Corpo:
 
-![image](https://github.com/Hudson-Matias/Teste/assets/116506548/912814a7-e612-4193-a8a5-976590414032)
+![Captura de tela 2024-05-04 151249](https://github.com/diogo-cedran/API-Marvel/assets/116506548/cd42c43a-67dd-401b-9098-929fcffe986a)
+
 
 - Resposta de Sucesso
   - Status 201 Created
