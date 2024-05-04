@@ -28,7 +28,7 @@ class criadoresController{
     async create(req:Request, res:Response){
         try{
             const criadores = await criadoresService.create(req.body)
-            res.status(201)
+            res.status(201);
             return res.json(criadores)
         }catch(error){
             console.error(error);
@@ -38,7 +38,7 @@ class criadoresController{
     async findAll(req:Request, res:Response){
         try{
             const criadores = await criadoresService.findAll()
-            res.status(200)
+            res.status(200);
             return res.json(criadores);
         }catch(error){
             console.error(error)
@@ -48,10 +48,10 @@ class criadoresController{
     async update(req:Request, res:Response){
         try{
             const criadores = await criadoresService.update(req.params.id, req.body);
-            res.status(201)
+            res.status(201);
             return res.json(criadores);
         }catch(error){
-            console.error(error)
+            console.error(error);
         }
     }
 

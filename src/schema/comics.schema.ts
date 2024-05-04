@@ -7,4 +7,4 @@ const comicsSchema = new Schema({
     capa: String
 }, { timestamps: true });
 
-export default model("Comics", comicsSchema)
+export default model("comics", comicsSchema)

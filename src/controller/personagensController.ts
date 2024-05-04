@@ -29,7 +29,7 @@ class personagensController{
     async create(req:Request, res:Response){
         try{
             const personagens = await personagensService.create(req.body)
-            res.status(201)
+            res.status(201);
             return res.json(personagens)
         }catch(error){
             console.error(error);
@@ -39,20 +39,20 @@ class personagensController{
     async findAll(req:Request, res:Response){
         try{
             const personagens = await personagensService.findAll()
-            res.status(200)
+            res.status(200);
             return res.json(personagens);
         }catch(error){
-            console.error(error)
+            console.error(error);
         }
     }
 
     async update(req:Request, res:Response){
         try{
             const personagens = await personagensService.update(req.params.id, req.body);
-            res.status(201)
+            res.status(201);
             return res.json(personagens);
         }catch(error){
-            console.error(error)
+            console.error(error);
         }
     }
 
@@ -70,7 +70,7 @@ class personagensController{
         try{
             const nome = req.params.nome;
             const personagem = await personagensService.buscarPersonagemNome(nome)
-            res.status(200)
+            res.status(200);
             return res.json(personagem)
         }catch(error){
             console.error(error);
@@ -80,7 +80,7 @@ class personagensController{
      async retornarCaminhoImagem(req:Request, res:Response){
          try{
              const personagem = await personagensService.retornarCaminhoImagem();
-             res.status(200)
+             res.status(200);
              return res.json(personagem)
          }catch(error){
              console.error(error);

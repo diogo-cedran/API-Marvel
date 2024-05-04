@@ -2,7 +2,6 @@ import { Request, Response, response } from 'express'
 import comicsService from '../service/comicsService';
 import axios from 'axios';
 import { comicsType } from '../types/comics.type';
-import Comics from '../schema/comics.schema';
 
 class comicsController {
 
@@ -35,7 +34,7 @@ class comicsController {
     async create(req: Request, res: Response) {
         try {
             const comics = await comicsService.create(req.body)
-            res.status(201)
+            res.status(201);
             return res.json(comics)
         } catch (error) {
             console.error(error);
@@ -45,20 +44,20 @@ class comicsController {
     async findAll(req: Request, res: Response) {
         try {
             const comics = await comicsService.findAll()
-            res.status(200)
+            res.status(200);
             return res.json(comics);
         } catch (error) {
-            console.error(error)
+            console.error(error);
         }
     }
 
     async update(req: Request, res: Response) {
         try {
             const comics = await comicsService.update(req.params.id, req.body);
-            res.status(201)
+            res.status(201);
             return res.json(comics);
         } catch (error) {
-            console.error(error)
+            console.error(error);
         }
     }
 

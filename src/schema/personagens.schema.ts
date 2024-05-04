@@ -6,4 +6,4 @@ const personagensSchema = new Schema({
     descricao: String
 }, { timestamps: true });
 
-export default model("Personagem", personagensSchema)
+export default model("personagem", personagensSchema)

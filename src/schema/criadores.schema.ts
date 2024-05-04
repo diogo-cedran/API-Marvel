@@ -6,4 +6,4 @@ const criadoresSchema = new Schema({
     quadrinhosFeitos: String
 }, { timestamps: true });
 
-export default model("Criadores", criadoresSchema)
+export default model("criadores", criadoresSchema)
